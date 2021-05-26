@@ -1,0 +1,247 @@
+/* If you edit this file by hand do not change its structure or comments, 
+the style editor relies on them to find and update the styles present. 
+Most changes should just be made with the style editor. */
+
+
+.headertop {
+	/*headertop*/
+	background-image:url(../../images/heman/en/header_logo_top.png);
+	background-repeat: no-repeat;
+	cursor:pointer;
+	width:394px;
+	height:94px;
+	z-index:3;
+	position:absolute;
+	top:20px;
+	left:1px;
+}
+
+.headerbottom {
+	/*headerbottom*/
+	background-image:url(../../images/heman/en/header_logo_bottom.png);
+	background-repeat: no-repeat;
+	cursor:pointer;
+	width:342px;
+	height:35px;
+	z-index:3;
+	position:absolute;
+	top:110px;
+	left:25px;
+}
+
+.nav{
+	/*nav*/
+	background-image:url(../../images/heman/en/nav_background.png);
+	background-repeat: no-repeat;
+	width:671px;
+	height:109px;
+	
+	position:absolute;
+	top:36px;
+	right:0px;
+	z-index:2;
+	
+}
+
+.minorNavTop{
+	
+	position:absolute;
+	top:7px;
+	right:8px;
+	
+	height:30px;
+	width:376px;
+	
+	text-align:right;
+	color:#FFFFFF;
+	text-decoration:none;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.menu
+{
+	font-family: Arial, Verdana, sans-serif;
+	width: 587px;
+	height: 19px;
+	position: relative;
+	font-size: 11px;
+	z-index:100;
+	top: 77px;
+	left: 76px;
+	
+	
+}
+
+.menu ul li
+{
+	float: left;
+	position: relative;
+	z-index:100;
+}
+.menu ul
+{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	z-index:100;
+}
+
+.menu ul li span,
+.menu ul li a, 
+.menu ul li a:visited
+{
+	/*menu ul li a:visited*/
+	display: block;
+	text-decoration: none;
+	/* font color of menu items */
+	color:#0066cb;
+	height: 19px;
+	text-align: left;
+	
+	line-height:19px;
+	
+	font-size: 11px;
+	overflow: hidden;
+	z-index:100;
+	
+}
+
+.menuliaCol ul li
+{
+	width:122px;
+}
+.menuliaCol
+{
+	width:122px;
+	
+}
+.menuliaCol:hover,
+.menuliaColpre
+{
+	background-image:url('../../images/heman/en/collecting_btn_over.gif');
+}
+
+.menuliaCtn ul li
+{
+	width:163px;
+}
+.menuliaCtn 
+{
+	width:163px;
+	
+}
+.menuliaCtn:hover,
+.menuliaCtnpre
+{
+	background-image:url('../../images/heman/en/cartoon_btn_over.gif');
+}
+
+.menuliaEncy ul li
+{
+	width:113px;
+}
+.menuliaEncy
+{
+	width:113px;
+	
+}
+.menuliaEncy:hover,
+.menuliaEncypre
+{
+	background-image:url('../../images/heman/en/encyclopedia_btn_over.gif');
+}
+
+
+.menuliaCom ul li
+{
+	width:101px;
+}
+.menuliaCom
+{
+	width:99px;
+	
+}
+.menuliaCom:hover,
+.menuliaCompre
+{
+	background-image:url('../../images/heman/en/community_btn_over.gif');
+}
+
+
+.menuliaRes ul li
+{
+	width:90px;
+}
+.menuliaRes
+{
+	width:90px;
+
+}
+.menuliaRes:hover,
+.menuliaRespre
+{
+	background-image:url('../../images/heman/en/resources_btn_over.gif');
+}
+
+/*
+---------menus---------------------------
+*/
+
+.menu ul li ul
+{
+	display: none;
+	z-index:100;
+}
+
+.submenu
+{
+	/*submenu*/
+	background-image:none;
+	/*menu bg color*/
+	background-color:#FFFFFF;
+	z-index:100;
+	
+}
+
+.menu ul li:hover ul
+{
+	/*menu ul li:hover ul*/
+	display: block;
+	position: absolute;
+	top: 19px;
+	left: 0;
+	/*border color*/
+	border:1px solid #9db7d2;
+	
+	z-index:100;
+}
+
+.menu ul li:hover ul li a:hover
+{
+	/*menu ul li:hover ul li a:hover*/
+	/*hover bg color*/
+	background-color:#0066cb;
+	background-image:none;
+	/*hover text color*/
+	color: #ffffff;
+	z-index:100;
+}
+
+/*
+---------sub menus---------------------------
+*/
+.menu ul li:hover ul li:hover ul
+{
+	display: block;
+	position: absolute;
+	left:163px;
+	top: 0;
+}
+.menu ul li:hover ul li ul
+{
+	display: none;
+}
+
+
+

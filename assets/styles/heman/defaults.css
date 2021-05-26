@@ -1,0 +1,427 @@
+/*default style*/
+/*style disabled*/
+
+/* If you edit this file by hand do not change its structure or comments, 
+the style editor relies on them to find and update the styles present. 
+Most changes should just be made with the style editor. */
+
+
+.ency_Title_box,
+.ency_Title_box_choose,
+.sectionTitle,
+.encySelectSeries select
+{
+	border-color:#FFFFFF; 
+}
+
+.user_box_login input,
+.editbox input
+{
+	/*logininputborder*/
+	border-color:#04668d;
+}
+
+.editbox input,
+.reviewUser,
+.reviewText,
+.collect_dsptable,
+.collect_dsptable th,
+.collect_dsptable td,
+.ency_catbtns,
+.ency_catbtns_w,
+.ency_objectprops_bottom,
+.profile_text,
+.home_left_browse_text,
+.headlin_text,
+.headlin_num2,
+.headlin_num,
+.changes_tbl,
+.changes_tbl th,
+.changes_tbl td,
+.searchbottom,
+.searchtable td,
+.editbox div,
+.leftBrowse,
+.left_browse_text,
+.image_viewer_image_edit,
+.toplinebox,
+.bottomlinebox,
+.redBottom,
+.blueTopTall,
+.blueTop,
+.blueTopBorder,
+.leftrightborder,
+.topbottomborder,
+.topBorder,
+.redTop,
+.viewType_box,
+.rightBrowse,
+.centerBrowse,
+.boxborder
+{
+	/*boxborder*/
+	border-color:#9fb6cc;
+}
+
+
+
+
+body
+{
+	/*bodybg*/
+	background-color:#002a43;
+	background-image: url(../../images/heman/bg.jpg);
+}
+
+.loginbutton
+{
+	/*loginbtnbg*/
+	background-color:#04668d !important;
+}
+
+
+.header1bg
+{
+	/*header1bg*/
+	background-color:#f66A65;
+	background-image:url(../../images/heman/gradient_red.gif);
+}
+
+.header2bg
+{
+	/*header2bg*/
+	background-color:#3CA7F9;
+	
+}
+
+.blueTopTall,
+.blueTop,
+.blueTopBorder,
+.header2bgimg
+{
+	/*header2bgimg*/
+	background-image:url(../../images/heman/gradient_blue.gif);
+}
+
+.user_box_login input
+{
+	/*logininputbg*/
+	background-color:#adc4d6;
+}
+
+.tableactive
+{
+	/*boxbg*/
+	background-color:#dfe0e2 !important;
+}
+
+.boxbg,
+.translate_table_header td,
+.editbox input
+{
+	/*boxbg*/
+	background-color:#dfe0e2;
+}
+
+
+.headlin_num:hover
+{
+	/*headlinehover*/
+	background-color:#edf5fb;
+}
+
+
+
+.tablecelbg,
+.tablebg td,
+.castcrew0 td
+{
+	/*tablecelbg*/
+	background-color:#f6f6ff;
+}
+
+.ency_catbtns_w,
+.ency_Title_box,
+.ency_Title_box_choose,
+.updates_bottom,
+
+.rightBrowse,
+.centerBrowse,
+.leftBrowse,
+.sectionTitle,
+.redBottom
+{
+	background-color:#ffffff;
+}
+
+.whiteBodyTop,
+.whiteBodyCenter
+{
+	/*whiteBodyCenter*/
+	background-color:#ffffff;
+}
+
+.translatable
+{
+	border-color:red;
+	border-style:solid;
+	border-width:1px;
+}
+
+/*textcolor*/
+.cartoonSection2,
+.collectTitle,
+.collectTitle2,
+.collectTitle2sm,
+.ency_objectprops h2,
+.encyTitle,
+.encyTitle2,
+.faqQuestion,
+.news_title,
+.pageHeading,
+.pageSection2,
+.pageTitle,
+.related_title,
+.resTitle2,
+.pageDescription h1,
+h3
+{
+	/*dark title*/
+	color:#003366;
+}
+
+.breadCrumbs,
+.browse_info,
+.collectAlignment,
+.details_val,
+.Details_Value,
+.editbox input,
+.ency_top_nav,
+.encySelectSeries select,
+.image_viewer_table,
+.left_browse_text,
+.minorNavBottom select,
+.next_links,
+.profile_text,
+.reviewDate,
+.searchtable,
+.updates_name,
+.user_box_link,
+.user_box_login,
+.user_box_visit,
+.userbox_extra,
+.userbox_extra_title
+{
+	/*dark body*/
+	color:#003366;
+}
+
+a:link,	a:active, a:visited,
+.editbox div
+{
+	/*pagelinks*/
+	color:#003366;
+}
+
+.newdatetext
+{
+	/*newdatetext*/
+	color:#ffe300;
+}
+
+.user_box_login input
+{
+	/*userinputtext*/
+	color:#04668d;
+}
+
+.ency_catbutton_disabled,
+.deletetxt
+{
+	/*edittext*/
+	color:#5c6a7e;
+}
+
+
+.minorNavTop a:link, .minorNavTop a:visited,	 .minorNavTop a:active
+{
+	/*toplinklink*/
+	color:#FFFFFF;
+}
+.minorNavTop a:hover
+{
+	/*toplinkhover*/
+	color:#A01111;
+}
+.minorNavBottom a:link, .minorNavBottom a:visited, .minorNavBottom a:active
+{
+	/*bottomlinklink*/
+	color:#FFFFFF;
+}
+.minorNavBottom a:hover
+{
+	/*bottomlinkhover*/
+	color:#ffe300;
+}
+
+
+.news_heading a:Link, .news_heading a:Visited, .news_heading a:Active,
+.ency_topbar_btn a:link, .ency_topbar_btn a:active, .ency_topbar_btn a:visited,
+.heading_text a:link, .heading_text a:active, .heading_text a:visited,
+.collect_dsptable th a:Link, .collect_dsptable th a:visited, .collect_dsptable th a:active, .collect_dsptable th a:hover,
+.ency_catbtns a:link, .ency_catbtns a:visited, .ency_catbtns a:active,
+.changes_tbl th a:Link, .changes_tbl th a:visited, .changes_tbl th a:active, .changes_tbl th a:hover
+{
+	/*lightlinks*/
+	color:#FFFFFF;
+}
+
+.ency_catbtns a:hover
+{
+	color:#9fb6cc;
+}
+
+.have_it_highlight,
+.image_viewer_section,
+h2,
+.section_title,
+.section_title_box,
+.section_sub_title,
+.view_desc
+{
+	/*darkhighlight*/
+	color:#A01111;
+}
+
+.form_form a:Link,
+.form_form a:Visited,
+.form_form a:Active
+{
+	/*formlink*/
+	color:#ff0000;
+}
+.contacttbl li,		
+.errordiv,
+.notranslation
+{
+	/*errortext*/
+	color:#ff0000;
+}
+
+a:hover,
+.form_form a:hover,
+.editbox div:hover,
+.archive_title,
+.details_val_lite,
+.edittitle,
+.ency_catbtns,
+.ency_catbtns_w,
+.headlin_num,
+.view_date,
+#copyright
+{
+	/*pagehover*/
+	color:#bbc9d6;
+}
+
+
+
+
+.collectCategory,
+.ency_topbar_btn a:hover,
+.news_heading a:hover,
+.yellow_heading_text,
+.heading_text a:hover
+{
+	/*litehightlight*/
+	color:#ffe300;
+}
+
+
+
+
+
+.changes_tbl th,
+.collect_dsptable th,
+.ency_objectprops h1,
+.ency_objectprops_top,
+.blueTop,
+.blueTopBorder,
+.blueTopTall,
+h1,
+.heading_text,
+.headlin_num2,
+.minorNavBottom,
+.redBottom,
+.redTop
+{
+	/*whitetext*/
+	color:#FFFFFF;
+}
+
+.loginbutton
+{
+	/*loginbtntxt*/
+	color:#FFFFFF !important;
+}
+
+.reviewText,
+.cast_table,
+.epreviewpage,
+.collet_cattable,
+.collect_dsptable,
+.ency_objectText,
+.ency_objectText h2,
+.help_text,
+.searchsections,
+.news_text,
+.collect_feat td,
+.home_left_browse_text,
+.headlin_text,
+.news_article_text,
+.featured_desc,
+.terms_title,
+.terms_section,
+.contacttbl2,
+.contacttbl,
+.changes_tbl,
+.headingDark_text,
+.image_viewer_desc,
+.Details_Desc,
+.pageDescription,
+.related_item,
+.faqAnswer,
+.section_desc,
+.downloadstext,
+.archive_tex,
+.collet_cattable
+{
+	/*blacktext*/
+	color:#000000;
+}
+
+
+
+.userlist-Admin
+{
+	/*userlistadmin*/
+	color:#6600ff;
+}
+.userlist-SuperAdmin
+{
+	/*userlistsuperadmin*/
+	color:#DC143c;
+}
+.userlist-User
+{
+	/*userlistuser*/
+	color:#003366;
+}
+.userlist-Editor
+{
+	/*userlisteditor*/
+	color:#ffe300;
+}
+
+
+
